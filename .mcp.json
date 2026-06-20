@@ -1,0 +1,29 @@
+{
+    "mcpServers": {
+        "claude-code-docs": {
+            "type": "http",
+            "url": "https://code.claude.com/docs/mcp"
+        },
+        "playwright": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@playwright/mcp@latest"
+            ]
+        },
+        "fetch": {
+            "command": "C:\\Users\\13774\\.conda\\envs\\torch251\\Library\\bin\\uvx.exe",
+            "args": [
+                "mcp-server-fetch"
+            ]
+        },
+        "mcp-server-hotnews": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@wopal/mcp-server-hotnews"
+            ]
+        }
+    }
+}
